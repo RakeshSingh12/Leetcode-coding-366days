@@ -1,0 +1,100 @@
+Day 1: #Day1withPriya #366daychallenge 
+Interviewer: Why do you prefer to work on libraries than frameworks.
+
+Let's deep dive:
+1. Tailored Solutions: Libraries offer specific tools for particular tasks, allowing me to choose only what's needed for a project without adopting a whole set of rules from a framework.
+2. Flexibility and Freedom: Using libraries provides flexibility as I can mix and match different tools as per project requirements, giving me more control over how I build.
+3. Customization Power: Working with libraries allows me to customize and fine-tune functionalities to fit precisely into a project, tailoring solutions to unique needs.
+4. Integration Ease: Libraries seamlessly integrate into different projects and environments, making it simpler to work with diverse technologies and setups.
+5. Deep Understanding of Components: Using libraries helps me understand specific components in-depth, aiding in efficient utilization and boosting my expertise in handling varied tools.
+-----------------------------------------------------------------------------
+Day 2:
+Interviewer: Why do you prefer React over other libraries and frameworks.
+Let's deep dive:
+1.Component-Based Architecture: Encourages the creation of reusable and independent UI components.
+2.Virtual DOM: Utilizes a virtual representation of the DOM for efficient updates, enhancing performance.
+3.JSX (JavaScript XML): Integrates HTML-like syntax within JavaScript, simplifying the creation of UI elements.
+4. Unidirectional Data Flow: Ensures a clear flow of data downward, enhancing application predictability.
+5.State Management: Offers options like Redux or React Context for efficient state management across components.
+6.Vibrant Community: Benefits from an active community providing extensive resources, libraries, and tools.
+7.Performance Optimization: Minimizes direct DOM manipulation, leading to better performance.
+8.Developer Tools: Provides robust tools like React DevTools for effective debugging and component inspection.
+9.Versatility and Backing: Supports web and mobile app development (React Native) and is maintained by Facebook, ensuring ongoing support and updates.
+------------------------------------------------------------------------------
+Day 3:
+Interviewer: How can you add 2 different colors at the alternative rows in a html table.
+Let's deep dive:
+
+The question aims to evaluate your familiarity with CSS properties, particularly the nth-child pseudo-class, and how effectively you can apply this 
+knowledge to achieve a specific visual effect, such as alternating row colors in a table. It also assesses your understanding of HTML structure, as 
+you might need to explain the relationship between HTML elements and the corresponding CSS selectors.
+
+:nth-child is a CSS pseudo-class that allows you to select elements based on their position within a parent element. It is used to target elements 
+that match a specific pattern defined by a formula.
+
+For instance:
+:nth-child(2n) selects every even element.
+:nth-child(2n+1) selects every odd element.
+:nth-child(3) selects every third element.
+:nth-child(3n+1) selects elements whose position is 1 more than a multiple of 3, starting from the first element.
+:nth-child(odd) is a keyword equivalent to :nth-child(2n+1).
+:nth-child(even) is a keyword equivalent to :nth-child(2n).
+------------------------------------------------------------------------------
+Day 4:
+Interviewer: What are the common breakpoints used in responsive web design?
+
+Let's deep dive:
+Media query breakpoints in CSS can vary based on the specific design and layout requirements of an application. Developers often define breakpoints 
+based on the content and how they want it to adapt to different screen sizes.
+
+Here are some commonly used breakpoints, but please note that these are general guidelines and can differ based on individual project needs:
+
+1. Extra Small Devices (Phones):
+ - @media (max-width: 576px) { ... }
+
+2. Small Devices (Portrait Tablets, Landscape Phones):
+ - @media (min-width: 576px) and (max-width: 768px) { ... }
+
+3. Medium Devices (Landscape Tablets, Small Laptops):
+ - @media (min-width: 768px) and (max-width: 992px) { ... }
+
+4. Large Devices (Desktops, Laptops):
+ - @media (min-width: 992px) and (max-width: 1200px) { ... }
+
+5. Extra Large Devices (Large Screens, TVs):
+ - @media (min-width: 1200px) { ... }
+
+These breakpoints are commonly used for responsive web design to adjust layout, typography, or other design elements to fit different screen sizes. 
+However, they are not strict rules and can be adjusted or expanded upon depending on the specific needs of an application.
+
+Developers might introduce additional breakpoints or customize existing ones to ensure that the application's interface is optimized and remains 
+user-friendly across a wide range of devices and screen sizes. The breakpoints mentioned above are just a starting point, and their actual 
+implementation can differ based on the design choices and the target audience of the application.
+--------------------------------------------------------------------------------
+Day 5:
+Interviewer: How many ways to make an API call and which is the best among them.
+ 
+Let's deep dive:
+ 
+As for which method is best, it often depends on the specific use case and the preferences of the developer or the project requirements. However, 
+the Fetch API is generally recommended for modern web development due to its native support in modern browsers, its simplicity, and its promise-based 
+syntax. Axios is also favored by many developers due to its ease of use and additional features, especially when working with more complex 
+applications.
+It's essential to consider factors such as browser support, ease of use, features required (like handling interceptors, progress events, etc.), and 
+the overall compatibility with your project when choosing the best method for making API calls in JavaScript.
+--------------------------------------------------------------------------------
+Day6:
+Interviewer: What are the differences between Redux and Redux-toolkit. 
+Let's deep dive:
+
+Redux Toolkit is like Redux, but it's a more efficient and user-friendly way to write Redux code. Unlike traditional Redux, it cuts down on the amount 
+of code needed to set up the store and manage state, making things simpler and faster. Redux Toolkit provides handy tools like `createSlice` and 
+`configureStore` that streamline the process and also encourages better coding practices, making it easier to write and maintain Redux applications. 
+Overall, it's Redux, but with fewer hassles and more helpful tools to get things done faster and better. 
+-----------------------------------------------------------------------------------
+Day 7: Console que
+
+-----------------------------------------------------------------------------------
+Day 8: Console que
+
+-----------------------------------------------------------------------------------
